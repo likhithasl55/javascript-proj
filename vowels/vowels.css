@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+    
+}
+h2{
+    font-size: 30px;
+    color: blue;
+}
+input{
+padding: 20px 50px;
+margin-top: 20px;
+}
+#count{
+    margin-top: 20px;
+    color: green;
+    font-size: 30px;
+}
+button{
+    background-color: rgb(177, 30, 148);
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+}
+.main-container{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 620px;
+    margin-top: 20px;
+
+}
