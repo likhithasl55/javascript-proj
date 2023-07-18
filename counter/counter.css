@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+}
+
+.card {
+    background-color: aqua;
+    width: 400px;
+    height:300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: 80vh;
+
+}
+.name{
+    color: brown;
+    padding-top: 20px;
+}
+#counter{
+    font-size: 30px;
+}
+ .prevBtn {
+    padding: 10px 40px;
+    margin-right: 20px;
+    background-color: violet;
+    border-radius: 20px;
+}
+.nextBtn{
+    padding: 10px 40px;
+    background-color:violet ;
+    border-radius: 20px;
+}
