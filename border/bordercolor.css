@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #333;
+    transition: all 0.4s ease;
+    margin: 200px 0 0 600px;
+    /* filter: drop-shadow(8px 0px 4px #220b5d); */
+}
+input{
+    margin: 30px 0px 0px 600px;
+   
+}
