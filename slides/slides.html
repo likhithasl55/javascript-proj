@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./slides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h2>image slider</h2>
+    <div class="container">
+        <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/hero-carousel/hero-carousel-1.jpg" class="slide" alt="">
+        <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/hero-carousel/hero-carousel-2.jpg" class="slide" alt="">
+        <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/hero-carousel/hero-carousel-3.jpg" class="slide" alt="">
+        <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/hero-carousel/hero-carousel-4.jpg" class="slide" alt="">
+        <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/hero-carousel/hero-carousel-5.jpg" class="slide" alt="">
+       
+        <button id="prev" onclick="goPrev()" title="Prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button id="next" onclick="goNext()" title="Next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script src="./slides.js"></script>
+</body>
+</html>
