@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.roeJGz3eeyhxK3XRQ0LxpQHaFj&pid=Api&P=0&h=180");
+    background-size: cover;
+    margin: 400px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    border-radius:10%;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    }
+
+i{
+    color: red;
+    position: absolute;
+    font-size: 40px;
+    opacity: 0;
+}
+i.active {
+    animation: heart 1s linear forwards;
+}
+
+@keyframes heart{
+    10% {
+        transform:scale(1.2);
+        opacity:0.8;
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    90% {
+        transform: scale(1.2);
+        opacity:0.8;
+    }
+}
