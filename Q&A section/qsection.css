@@ -1,0 +1,51 @@
+.container {
+    width:100%;
+    margin: 50px auto;
+}
+
+.question {
+background-color: white;
+border-radius: 0.5rem;
+padding:1rem 1.5rem 1rem 1.5rem;
+margin-bottom: 1.5rem;
+}
+.questionText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+}
+.questionText p{
+font-size: 1.2rem;
+font-weight: 500;
+}
+.questionText .questionBtn {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: blue;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.answerText{
+    border-top: 2px solid gray;
+    padding: 0.5rem 0 0 0;
+    text-align: justify;
+    display: none;
+
+}
+
+.up {
+    display: none;
+}
+.showText .answerText {
+    display: block;
+}
+
+.showText .up {
+    display: inline;
+}
+
+.showText .down{
+    display: none;
+}
