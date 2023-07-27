@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin: 200px 500px;
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#btn{
+    padding: 20px 40px;
+    margin-top: 20px;
+    background-color: red;
+}
+#otp{
+    font-size: 40px;
+    color: rgb(15, 62, 46);
+   
+    
+}
